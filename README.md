@@ -21,7 +21,7 @@ open command prompt and install npm i --save-dev mocha chai @babel/cli @babel/no
 
  ### Reporting
 
- Detailed reporting has been implemented with mochawesome.Just open the html file after running the test from  the project directory and it will shows the details regaring test cases execution
+ Detailed reporting has been implemented with mochawesome.Just open the html file from  mochawesome-reports folder  after running the test from  the project directory and it will shows the details regaring test cases execution
 
 
  ### Bug Report
