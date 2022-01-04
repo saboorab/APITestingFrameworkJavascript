@@ -1,6 +1,9 @@
+//This method will generate token based on the BASE_URI=https://api-demo.airwallex.com 
+//and AUTH LOGIN=/api/v1/authentication/login which are defined in services->endpoints.js file
 import supertest from 'supertest';
 import { AUTH_LOGIN, BASE_URI } from '../services/endpoints';
 
+//Defining the BASE_URI
 const request = supertest(BASE_URI)
 
 export const generateToken = async () => {
