@@ -1,4 +1,4 @@
-
+//Generate unique value of account number,length depend upon the the value provided
 export function accountNumbercreation(length) {
     var result           = '';
     var characters       = '0123456789';
@@ -9,7 +9,7 @@ export function accountNumbercreation(length) {
    }
    return result;
 }
-
+//Generate unique value of account name,length depend upon the the value provided
 export function accountNamecreation(length) {
     var result           = '';
     var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
@@ -21,7 +21,7 @@ export function accountNamecreation(length) {
    return result;
 }
 
-
+//This function contain the valid and invalid values of swift code,payment method,country code,bsb and aba 
 export function values(expression) {
     switch(expression) {
         case 'SWIFTCODE_US_6':
