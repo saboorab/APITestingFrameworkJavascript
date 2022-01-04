@@ -9,7 +9,7 @@ open command prompt and install npm i --save-dev mocha chai @babel/cli @babel/no
 
 ### Run
 
- To run test cases, please execute commands:
+ To run test cases,open terminal,please execute commands:
  `npm run test`
  
  ### To be noted
@@ -21,9 +21,9 @@ open command prompt and install npm i --save-dev mocha chai @babel/cli @babel/no
 
  ### Reporting
 
- Detailed reporting has been implemented with mochawesome.Just open the html file from  mochawesome-reports folder  after running the test from  the project directory and it will shows the details regaring test cases execution
- I have added mochawesome.html only to show the last executions on my system.please ignore this,whenever the test cases are executed a new file for reports will be created with mochawesome.html file inside that mochawesome reports folder.
+ Detailed reporting has been implemented with mochawesome.Just open the html file after running the test from  the project directory and it will shows the details regaring test cases execution
+
 
  ### Bug Report
 
-Detailed bug  report has been included Bug report_QA Automation Task  
+Detailed bug report has been included Bug report_QA Automation Task  
