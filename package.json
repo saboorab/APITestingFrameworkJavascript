@@ -1,7 +1,7 @@
 {
-  "name": "airwallex-qa-code-challenge",
+  "name": "API Testing Framework",
   "version": "1.0.0",
-  "description": "solution for airwallex-qa-code-challenge",
+  "description": "API Testing Framework developed in Mocha",
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000 --reporter mochawesome src/test/*.js"
